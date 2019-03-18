@@ -1,0 +1,31 @@
+{
+    "name": "ssfyn/php-grpc-server-example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yanan3",
+            "email": "yanan3@mafengwo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dev\\Fyn\\": ["pb-src/Dev/Fyn","src"],
+            "GPBMetadata\\": "pb-src/GPBMetadata"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dev\\Fyn\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-grpc": "*",
+        "ext-protobuf": "*",
+        "grpc/grpc": "^1.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "symfony/process": "^4.2"
+    }
+}

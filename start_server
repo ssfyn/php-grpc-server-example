@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: fanyanan
+ * Date: 2019-03-19
+ * Time: 02:02
+ */
+require_once __DIR__.'/vendor/autoload.php';
+
+$server = new \Dev\Fyn\Server('0.0.0.0:50051');
+$server->serve();
