@@ -1,6 +1,8 @@
 # PHP gRPC Server Example
 
-This is a simple demo, used to demonstrate how to use PHP as a gRPC service.
+This is a simple demo, used to demonstrate how to use PHP as a gRPC service. 
+
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.2-8892BF.svg?style=flat-square)](https://php.net/)  
 
 ## 0. Prepare
 When these installations encounter problems, please refer to: https://grpc.io/docs/quickstart/php.html    
